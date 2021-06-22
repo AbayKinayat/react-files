@@ -1,0 +1,155 @@
+body {
+  background-color: #EDDCBB;
+}
+
+.Navbar {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.Navbar__inner {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.auth {
+  display: flex;
+  max-width: 900px;
+  min-height: 500px;
+  width: 100%;
+  background-color: #D1B580;
+  border-radius: 47px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-attainment {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  margin-bottom: 6px;
+}
+
+.auth-attainment__description {
+  font-family: Montserrat;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #FFF4DF;
+}
+
+.logoArm {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.logoString {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.slogan {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  margin-top: 190px;
+}
+
+.watchButton {
+  display: flex !important;
+  transform: translateX(-2px) !important;
+  border-radius: 20px !important;
+  background-color: #E2B661 !important;
+  color: #fff !important;
+  font-size: 9px !important;
+  margin-top: 15px !important;
+}
+
+.buttonCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #F0D195;
+  margin-right: 3px;
+}
+
+.auth-wrapped {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; 
+}
+
+.auth-content__wrapped_left {
+  background-size: cover; 
+  width: 65%;
+  height: inherit;
+  border-radius: 47px 0 0 47px;
+  
+  padding: 20px 0 0 90px;
+}
+
+.auth-content__wrapped_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+  padding: 30px 25px 0 25px;
+}
+
+.MuiFormControlLabel-root {
+  width: max-content !important; 
+  margin: 0 auto !important; 
+}
+
+.MuiFormControlLabel-label {
+  font-size: 10px !important;
+  line-height: 1.2 !important;
+}
+
+.auth-button {
+  width: 100%;
+  color: #ffffff !important;
+  background-color: #E2B661 !important;
+
+  margin-top: 10px !important;
+}
+
+.author-text {
+  font-size: 10px;
+  line-height: 0;
+
+  margin-left: 10px;
+}
+
+.type-list_active {
+  background-color: #E2B661 !important;
+}
+
+.brand-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clothe-page__top-info {
+  width: 100%;
+  background-color: #fff;
+  
+  padding: 16px;
+}

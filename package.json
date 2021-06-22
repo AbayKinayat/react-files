@@ -1,0 +1,32 @@
+{
+  "license": "ISC",
+  "name": "online_store",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
+  },
+  "node": "14.x",
+  "author": "kinayat.abay@mail.ru",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
